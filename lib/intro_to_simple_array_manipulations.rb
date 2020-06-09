@@ -11,7 +11,7 @@ def using_unshift(bouroughs_in_nyc, new_neighborhood)
 end
 
 def using_pop (dog_breeds)
-  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = dog_breeds.pop
   p deleted_string
 end
